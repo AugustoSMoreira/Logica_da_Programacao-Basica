@@ -1,0 +1,21 @@
+<meta charset="utf-8">
+
+<script type="text/javascript">
+	
+	function jumpRow () {
+		document.write("<br>");
+	}
+
+	function print (print) {
+		document.write (print);
+	}
+
+	var idade = parseInt(prompt("Qual a sua idade ? "));
+	var temCarteira = prompt(" Tem carteira ? Responda S ou N:");
+
+	if (idade >= 18 && temCarteira =="S") {
+		print (" Vc está apto para dirigir !");
+	}else {
+		print (" Não está apto !")
+	}
+</script>

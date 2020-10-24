@@ -1,0 +1,24 @@
+<meta charset="utf-8">
+
+<script type="text/javascript">
+	
+	function jumpRow() {
+		document.write("<br>");
+	}
+
+	function print(print) {
+		document.write(print);
+	}
+
+	var numeroPensado = Math.round(Math.random()*10); 
+	console.log(numeroPensado)
+
+	var chute = parseInt(prompt("Qual o seu Chute: "));
+
+	if ( chute == numeroPensado) {
+		print(" Vc acertou !")
+	} else {
+		print(" Vc errou ! O número pensado foi " + numeroPensado)
+	}
+
+</script>

@@ -1,0 +1,27 @@
+<meta charset="utf-8">
+
+<script type="text/javascript">
+	
+	function jumpRow() {
+		document.write("<br>");
+	}
+
+	function print(print) {
+		document.write(print);
+	}
+
+	var limite = parseInt(prompt(" Entre com a data limite: "))
+
+	var anoCopa = 1930;
+
+	while(anoCopa <= limite){
+		print(" teve copa em " + anoCopa);
+	anoCopa = anoCopa + 4;
+	jumpRow()
+	}
+
+	print("FIM!")
+	
+
+
+</script>
