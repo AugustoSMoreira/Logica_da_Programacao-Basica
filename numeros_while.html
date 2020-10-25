@@ -1,0 +1,36 @@
+<meta charset="utf-8">
+
+<script type="text/javascript">
+
+    function print(print){
+        document.write(print);
+    }
+
+    function jumpRow(){
+        document.write ("<br>");
+    }
+
+    let number0 = 30;
+    while (number0 <= 40){
+
+        if (number0 == 33) {
+            number0 = number0 +1;
+            jumpRow();   
+        }
+        if (number0 == 37) {
+            number0 = number0 +1;
+            jumpRow();
+        }
+        else {
+            print(number0);
+            number0 = number0 +1; 
+            jumpRow();
+
+        }
+    }
+
+    jumpRow();
+    print(" FIM!")
+
+
+</script>
